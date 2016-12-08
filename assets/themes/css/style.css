@@ -7744,6 +7744,9 @@ Image credits: unsplash.com
   left: 0;
   right: 0;
 }
+div.page-header {
+  max-width: 40%;
+}
 div#footer {
   height: 250px !important;
   background-color: #000 !important;
@@ -7751,4 +7754,7 @@ div#footer {
 #map {
   height: 250px;
   width: 100%;
+}
+div.product img {
+  max-height: 450px;
 }
