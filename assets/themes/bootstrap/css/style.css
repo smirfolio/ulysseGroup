@@ -7621,8 +7621,8 @@ Image credits: unsplash.com
 }
 .fade-carousel .carousel-indicators > li {
   margin: 0 2px;
-  background-color: #f39c12;
-  border-color: #f39c12;
+  background-color: #000000;
+  border-color: #9a6004;
   opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -7650,7 +7650,7 @@ Image credits: unsplash.com
 }
 .hero h1 {
   color: #fff;
-  font-size: 6em;
+  font-size: 4em;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -7659,23 +7659,8 @@ Image credits: unsplash.com
 .hero h1 {
   color: #fff;
 }
-.fade-carousel .carousel-inner .item .hero {
-  opacity: 0;
-  -webkit-transition: 2s all ease-in-out 0.1s;
-  -moz-transition: 2s all ease-in-out 0.1s;
-  -ms-transition: 2s all ease-in-out 0.1s;
-  -o-transition: 2s all ease-in-out 0.1s;
-  transition: 2s all ease-in-out 0.1s;
-}
-.fade-carousel .carousel-inner .item.active .hero {
-  opacity: 1;
-  -webkit-transition: 2s all ease-in-out 0.1s;
-  -moz-transition: 2s all ease-in-out 0.1s;
-  -ms-transition: 2s all ease-in-out 0.1s;
-  -o-transition: 2s all ease-in-out 0.1s;
-  transition: 2s all ease-in-out 0.1s;
-}
 .carousel-indicators {
+  z-index: 45;
   bottom: -10px;
 }
 /********************************/
@@ -7687,7 +7672,7 @@ Image credits: unsplash.com
   height: 100%;
   z-index: 2;
   background-color: rgba(178, 180, 183, 0.72);
-  opacity: .6;
+  opacity: .5;
 }
 /********************************/
 /*          Custom Buttons      */
