@@ -1,0 +1,57 @@
+<!-- Slide how -->
+
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+    <div class="overlay">
+   <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#bs-carousel" data-slide-to="1"></li>
+      <li data-target="#bs-carousel" data-slide-to="2"></li>
+    </ol>
+    
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item slides active">
+        <div class="slide-1"><img src="http://www.oliopera.com/MTDoliopera/uploads/2016/09/slide_2.jpg"></div>
+        <div class="hero">
+          <hgroup>
+              <h1>2We are olive oil producer</h1>        
+              <h3>Authentic and ancestral oil olive producer</h3>
+          </hgroup>
+          <a  href="{{ HOME_PATH }}produits" class="btn btn-hero btn-lg" role="button">See Our Product</a>
+        </div>
+      </div>
+      <div class="item slides">
+        <div class="slide-2"><img src="http://www.oliopera.com/MTDoliopera/uploads/2016/09/slide_3.jpg"></div>
+        <div class="hero">        
+          <hgroup>
+              <h1>We Have Import Olive Oil Expertise</h1>        
+              <h3>Best Olive Oil Quality Need Transport of Olive Oil Expertise </h3>
+          </hgroup>       
+          <a  href="{{ HOME_PATH }}expertise" class="btn btn-hero btn-lg" role="button">See Our Expertise</a>
+        </div>
+      </div>
+      <div class="item slides">
+        <div class="slide-3"><img src="http://www.oliopera.com/MTDoliopera/uploads/2016/09/slide_1.jpg"></div>
+        <div class="hero">        
+          <hgroup>
+              <h1>The Mythic Legend of Ulysse</h1>        
+              <h3>Ulysse Land of Mythological Stories</h3>
+          </hgroup>
+          <a href="{{ HOME_PATH }}histoire" class="btn btn-hero btn-lg" role="button">Our History</a>
+        </div>
+      </div>
+    </div> 
+  </div>
+  </div>
+  
+<div class="page-header center-block">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+<div class="container">
+
+    {{ content }}
+
+</div>

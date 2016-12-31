@@ -4154,7 +4154,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 64px;
-  margin-bottom: 0px;
+  margin-bottom: 23px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -7650,7 +7650,7 @@ Image credits: unsplash.com
 }
 .hero h1 {
   color: #fff;
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -7658,8 +7658,6 @@ Image credits: unsplash.com
 .hero h3,
 .hero h1 {
   color: #fff;
-  margin-bottom: 5px !important;
-  margin-top: 5px;
 }
 .carousel-indicators {
   z-index: 45;
@@ -7721,20 +7719,15 @@ Image credits: unsplash.com
   position: absolute;
   z-index: 50;
   width: 100%;
+  margin-top: -75px;
   text-align: center;
 }
 .logo img {
-  max-width: 200px;
+  max-width: 250px;
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-}
-.logo-left a.navbar-brand {
-  padding: 5px 15px !important;
-}
-.logo-left img {
-  max-width: 100px;
 }
 div.page-header {
   max-width: 40%;
@@ -7752,8 +7745,4 @@ div.product h4 {
 }
 div.product img {
   max-height: 450px;
-}
-.navbar {
-  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
-  box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
 }
